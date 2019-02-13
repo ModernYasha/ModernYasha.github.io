@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	font-size: 120px;
+	font-family: "Lazy Sunday";
+	letter-spacing: -3px;
+	text-align: center;
+	color: #ffffff;
+}
+
+@font-face {
+	font-family: "Lazy Sunday";
+		src: url("lazy_sunday_regular.ttf");
+}
+
+@font-face {
+	font-family: "Lazy Dog";
+	src: url("lazy_dog.ttf");
+}
+
+.grid {
+	display: grid;
+	margin: 30px auto;
+	width: 90%;
+	height: 800px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 100px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.box {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 100px;
+	text-align: center;
+	line-height: 800px;
+	font-family: "Lazy Dog";
+	color: rgba(0,0,0,0);
+}
+
+.a {
+	background-color: #9E090B;
+	background-image: url('artbanner.png');
+}
+
+.b {
+	background-color: #EFC100;
+	background-image: url('comicbanner.png');
+}
+
+.c {
+	background-color: #D34800;
+	background-image: url('vabanner.png');
+}
+
+.d {
+	background-color: #3A3F94;
+	background-image: url('moddingbanner.png');
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+
+.bottom {
+	font-family: "Lazy Dog";
+	font-size: 30px;
+	bottom: 10px;
+	text-align: center;
+	color: white;
+}

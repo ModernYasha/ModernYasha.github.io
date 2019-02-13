@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { 
+	font-family: "Lazy Sunday";
+	src: url('lazy_sunday_regular.ttf');
+}
+@font-face { 
+	font-family: "Lazy Dog";
+	src: url('lazy_dog.ttf');
+}
+@font-face {
+	font-family: "Wayoshi";
+	src: url('wayoshi.ttf');
+}
+
+body {
+	background-image: url('images/backgrounds/celestebg.png');
+	background-size: 1920px auto;
+	background-attachment: fixed;
+}
+
+
+header {
+	top: 10px;
+	left: 50px;
+	font-size: 100px;
+	font-family: "Lazy Sunday";
+	line-height: 80%;
+}
+
+.title {
+	float: left;
+	position: relative;
+	font-family: "Wayoshi";
+	font-size: 75pt;
+	color: white;
+	height: 150px;
+	left: 100px;
+	width: 100%;
+}
+
+.titlegrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 50px auto;
+	height: 300px;
+	width: 10%;
+}
+
+.links {
+	top: 10px;
+	display: block;
+	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 32px;
+}
+
+.smashbanner {
+	height: 300px;
+	margin: 0 auto;
+	
+}
+
+.smashheader {
+	font-family: "Wayoshi";
+	font-size: 100px;
+	text-align: center;
+	margin-top: 100px;
+	-webkit-text-stroke-width: 2px;
+  	-webkit-text-stroke-color: white;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+a.menu{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+}
+
+p.subtitle {
+	font-family: "Lazy Dog";
+	font-size: 30px;
+	text-align: center;
+}
+
+p.name {
+	text-align: center;
+	font-family: "Lazy Dog";
+	font-size: 30px;
+}
+
+.videogrid {
+	display: grid;
+	grid-template-rows: 560px;
+	margin: 0 auto;
+	width: 560px;
+	height: 315px;
+	
+}

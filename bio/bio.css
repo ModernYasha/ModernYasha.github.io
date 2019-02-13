@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: "Lazy Sunday"; src: url('LAZY_SUNDAY_REGULAR.TTF'); }
+@font-face { font-family: "Lazy Dog"; src: url('LAZY_DOG.TTF'); }
+@font-face {
+	font-family: "Wayoshi";
+	src: url('wayoshi.ttf');
+}
+
+body {
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.name {
+	position: relative;
+	font-family: "Wayoshi";
+	font-size: 210px;
+	color: white;
+	top: 50px;
+	left: 5%;
+	-webkit-text-stroke-width: 8px;
+  	-webkit-text-stroke-color: black;
+
+}
+
+p {
+	font-family: "Lazy Dog";
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	opacity: 1.0;
+	color: white;
+}
+
+.box {
+	background-color: rgba(0,0,0,0.50);
+	position: fixed;
+	top: 500px;
+	left: 100px;
+	width: 40%;
+	height: auto;
+	border-radius: 20px;
+}
+
+img.box{
+	width: 860px;
+	height: 440px;
+}
+
+.character {
+	position: fixed;
+	left: 65%;
+	bottom: 0px;
+	width: 980px;
+	height: 100%;
+
+}
+
+#character {
+	position: fixed;
+	left: 55%;
+	bottom: 0px;
+	width: 980px;
+	height: 100%;
+	
+}
+
+.back {
+	position: relative;
+	font-family: "Lazy Dog";
+	font-size: 30pt;
+	left: 5%;
+	top: 50px;
+
+}
