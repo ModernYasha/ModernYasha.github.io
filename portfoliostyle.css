@@ -16,6 +16,29 @@
 	text-transform: lowercase;
 }
 
+#invisible {
+	color: rgba(0,0,0,0.00);
+}
+
+.back {
+	position: relative;
+	font-family: "Lazy Dog";
+	font-size: 30pt;
+	left: 5%;
+	top: 50px;
+}
+
+a.back2 {
+	text-decoration: none;
+	color: black;
+}
+
+a.link {
+	color: red;
+	text-decoration: none;
+	
+}
+
 /* Body */
 body {
 	margin: 0;
@@ -55,7 +78,7 @@ header {
 	color: #FFFFFF;
 	text-align: center;
 	margin: 0;
-	font-size: 20px;
+	font-size: 30px;
 }
 /* About Section */
 .text_column {
@@ -194,7 +217,7 @@ footer {
 	background-color: rgba(71,4,4,0.90);
 }
 .profile {
-	width: 50%;
+	width: 70%;
 }
 .gallery .thumbnail .tag {
 	font-family: "Lazy Dog";
