@@ -26,11 +26,18 @@
 	font-size: 30pt;
 	left: 5%;
 	top: 50px;
+	padding: 10px;
+	background-color: rgba(80,0,1,0.89);
+	width: 5%;
+}
+
+.back:hover {
+	background-color: rgba(255,34,38,0.64);
 }
 
 a.back2 {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a.link {
